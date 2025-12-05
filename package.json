@@ -1,22 +1,23 @@
 {
-  "name": "note-taker",
+  "name": "note_taker",
   "version": "1.0.0",
   "description": "## Your Task",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "gh-pages": "^3.2.2"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dalto135/note-taker.git"
+    "url": "git+https://github.com/dalto135/note_taker.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dalto135/note-taker/issues"
+    "url": "https://github.com/dalto135/note_taker/issues"
   },
-  "homepage": "https://github.com/dalto135/note-taker#readme",
+  "homepage": "https://github.com/dalto135/note_taker#readme",
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^2.0.7"
